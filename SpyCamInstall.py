@@ -26,6 +26,7 @@ def main():
 		os.system(" chmod +x SpyStart.sh")
 		print " Copying SpyStart.sh to /etc/init.d/SpyStart.sh Startup"
 		os.system(" cp SpyStart.sh /etc/init.d/SpyStart.sh")
+		#os.system("update-rc.d myscript defaults")
 		print " INSTALLATION DONE!"
 		main()
 	elif choice == "3":
